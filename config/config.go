@@ -21,7 +21,7 @@ type Config struct {
 
 var (
 	env = map[string]string{
-		"API_URL":     "https://api.scalingo.com",
+		"API_URL":     "https://osc-fr1.scalingo.io",
 		"API_VERSION": "1",
 		"CONFIG_DIR":  ".config/scalingo",
 		"AUTH_FILE":   "auth",
